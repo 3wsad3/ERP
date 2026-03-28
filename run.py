@@ -9,11 +9,11 @@ if __name__ == "__main__":
     if len(sys.argv) == 2:
         if sys.argv[1] == "test":
             # 测试环境的地址
-            os.environ["URL"] = "http://192.168.10.142:80"
+            os.environ["URL"] = "http://192.168.10.141:80"
             # 我这边的测试环境的数据没有变化，实际情况可能会发生改变
             # 根据实际情况来修改下面的字典内的值就好了
             os.environ["DB"] = str({
-                "host": "192.168.10.142",
+                "host": "192.168.10.141",
                 "port": 3306,
                 "database": "xingyun",
                 "user": "root",
@@ -23,9 +23,9 @@ if __name__ == "__main__":
 
         elif sys.argv[1] == "prod":
             # 生产环境的环境变量
-            os.environ["URL"] = "http://192.168.10.142:80/api/cloud-api"
+            os.environ["URL"] = "http://192.168.10.141:80/api/cloud-api"
             os.environ["DB"] = str({
-                "host": "192.168.10.142",
+                "host": "192.168.10.141",
                 "port": 3306,
                 "database": "xingyun",
                 "user": "root",

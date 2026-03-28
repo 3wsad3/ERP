@@ -1,5 +1,5 @@
 # 环境基准地址
-# BASE_URL = "http://192.168.10.142:80/api/cloud-api"
+# BASE_URL = "http://192.168.10.141:80/api/cloud-api"
 
 # excel格式的测试用例文件配置
 EXCEL_FILE = "./data/测试用例完整版.xlsx"
@@ -7,7 +7,7 @@ EXCEL_FILE = "./data/测试用例完整版.xlsx"
 SHEET_NAME = "Sheet1"
 
 # mysql配置
-# DB_HOST = "192.168.10.142"
+# DB_HOST = "192.168.10.141"
 # DB_PORT = 3306
 # DB_NAME = "xingyun"
 # DB_USER = "root"
