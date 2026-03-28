@@ -2,8 +2,8 @@
 # BASE_URL = "http://192.168.10.142:80/api/cloud-api"
 
 # excel格式的测试用例文件配置
-#EXCEL_FILE = "./data/测试用例完整版.xlsx"
-EXCEL_FILE = "./data/接口自动化测试用例.xlsx"
+EXCEL_FILE = "./data/测试用例完整版.xlsx"
+#EXCEL_FILE = "./data/接口自动化测试用例.xlsx"
 SHEET_NAME = "Sheet1"
 
 # mysql配置
@@ -35,5 +35,5 @@ if os.environ.get("ENV") == "test":
     REPORT_PATH = "http://192.168.10.171:8080/view/all/job/ERP_git_pord/allure/"
 # elif os.environ["ENV"] == "prod":
 elif os.environ.get("ENV") == "prod":
-    REPORT_PATH = "http://www.baidu.com/"
+    REPORT_PATH = "http://192.168.10.171:8080/job/ERP_git/allure/"
     
