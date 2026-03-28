@@ -2,8 +2,8 @@
 # BASE_URL = "http://192.168.10.142:80/api/cloud-api"
 
 # excel格式的测试用例文件配置
-EXCEL_FILE = "./data/测试用例完整版.xlsx"
-# EXCEL_FILE = "./data/接口自动化测试用例.xlsx"
+# EXCEL_FILE = "./data/测试用例完整版.xlsx"
+EXCEL_FILE = "./data/接口自动化测试用例.xlsx"
 SHEET_NAME = "Sheet1"
 
 # mysql配置
