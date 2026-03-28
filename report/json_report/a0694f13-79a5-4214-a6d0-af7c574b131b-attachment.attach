@@ -1,0 +1,1 @@
+{'method': 'delete', 'url': 'http://192.168.10.142:80/sale/order', 'headers': {'accept': 'application/json, text/plain, */*', 'x-auth-token': ''}, 'params': None, 'data': {'id': ''}, 'json': None}

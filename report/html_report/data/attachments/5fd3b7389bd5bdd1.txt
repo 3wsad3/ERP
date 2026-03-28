@@ -1,0 +1,4 @@
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:2 模块:登录 场景:登录成功 标题:用户登录成功
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:2 模块:登录 场景:登录成功 标题:用户登录成功
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:2 模块:登录 场景:登录成功 标题:用户登录成功
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:2 模块:登录 场景:登录成功 标题:用户登录成功

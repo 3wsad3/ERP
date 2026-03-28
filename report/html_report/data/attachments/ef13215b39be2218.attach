@@ -1,0 +1,1 @@
+{'method': 'patch', 'url': 'http://192.168.10.142:80/sale/order/approve/refuse', 'headers': {'accept': 'application/json, text/plain, */*', 'x-auth-token': ''}, 'params': None, 'data': None, 'json': {'id': '', 'refuseReason': '222'}}

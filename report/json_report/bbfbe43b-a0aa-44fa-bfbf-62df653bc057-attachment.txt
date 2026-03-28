@@ -1,0 +1,9 @@
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:8 模块:销售 场景:查看销售订单 标题:成功查看销售订单的支付方式
+[32mINFO    [0m root:analyse_case.py:26 1.解析请求数据, 请求数据为: {'method': 'post', 'url': 'http://192.168.10.142:80/selector/paytype/load', 'headers': {'accept': 'application/json, text/plain, */*', 'x-auth-token': ''}, 'params': None, 'data': None, 'json': ['']}
+[32mINFO    [0m root:send_request.py:13 2.发送HTTP请求, 响应文本为: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.27.5</center>
+</body>
+</html>

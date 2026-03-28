@@ -1,0 +1,18 @@
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:4 模块:销售 场景:新增销售订单 标题:成功新增销售订单
+[32mINFO    [0m root:analyse_case.py:26 1.解析请求数据, 请求数据为: {'method': 'post', 'url': 'http://192.168.10.142:80/sale/order', 'headers': {'accept': 'application/json, text/plain, */*', 'x-auth-token': ''}, 'params': None, 'data': None, 'json': {'scId': '1900213502824550400', 'customerId': '1914290764762976256', 'salerId': '1902189076078006272', 'description': '', 'payTypes': [{'id': '2', 'payAmount': '30000', 'text': ''}], 'products': [{'productId': '1902890615214051328', 'oriPrice': 3000, 'taxPrice': 3000, 'discountRate': '100.00', 'orderNum': '10', 'description': ''}]}}
+[32mINFO    [0m root:send_request.py:13 2.发送HTTP请求, 响应文本为: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.27.5</center>
+</body>
+</html>
+[32mINFO    [0m root:test_runner.py:35 0.用例ID:4 模块:销售 场景:新增销售订单 标题:成功新增销售订单
+[32mINFO    [0m root:analyse_case.py:26 1.解析请求数据, 请求数据为: {'method': 'post', 'url': 'http://192.168.10.142:80/sale/order', 'headers': {'accept': 'application/json, text/plain, */*', 'x-auth-token': ''}, 'params': None, 'data': None, 'json': {'scId': '1900213502824550400', 'customerId': '1914290764762976256', 'salerId': '1902189076078006272', 'description': '', 'payTypes': [{'id': '2', 'payAmount': '30000', 'text': ''}], 'products': [{'productId': '1902890615214051328', 'oriPrice': 3000, 'taxPrice': 3000, 'discountRate': '100.00', 'orderNum': '10', 'description': ''}]}}
+[32mINFO    [0m root:send_request.py:13 2.发送HTTP请求, 响应文本为: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.27.5</center>
+</body>
+</html>
