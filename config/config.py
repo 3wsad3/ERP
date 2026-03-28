@@ -32,8 +32,8 @@ FEISHU_IS_SEND = True
 import os
 # if os.environ["ENV"] == "test":
 if os.environ.get("ENV") == "test":
-    REPORT_PATH = "http://192.168.10.171:8080/view/all/job/jkzdh_git_erp/allure/"
+    REPORT_PATH = "http://192.168.10.171:8080/view/all/job/ERP_git_pord/allure/"
 # elif os.environ["ENV"] == "prod":
 elif os.environ.get("ENV") == "prod":
-    REPORT_PATH = "http://192.168.10.171:8080/job/jkzdh_git_erp_pord/allure/"
+    REPORT_PATH = "http://192.168.10.171:8080/job/ERP_git_pord/allure/"
     
